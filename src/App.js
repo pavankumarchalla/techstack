@@ -9,8 +9,8 @@ import LibraryList from './components/LibraryList'
 const App = () => {
   return (
     <Provider store={createStore(reducers)}>
-      <SafeAreaView>
-        <View>
+      <SafeAreaView style={{ flex: 1 }}>
+        <View style={{ flex: 1 }}>
           <Header title='Tech Stack' />
           <LibraryList />
         </View>
